@@ -7,8 +7,13 @@
 <title>Insert title here</title>
 </head>
 <body>
-Hello User
+
+<form action="demo">
+
+Enter Your Name : <input type="text" name="t1">
 <br>
-<a href="demo"> Click here</a>
+<input type="submit" value="CLICK ME">
+</form>
+
 </body>
 </html>

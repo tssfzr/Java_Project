@@ -29,9 +29,10 @@ public class demo extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		
+		String un = request.getParameter("t1");
 		PrintWriter out = response.getWriter();
-		out.println("HELLO");
+		
+		out.println("The username is : " + un);
 	}
 
 	/**
